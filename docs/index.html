@@ -4,726 +4,29 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <title>Cansu Bilgir</title>
+    <title>Cansu Bilgir Resume</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <style>
-        html,
-        body,
-        div,
-        span,
-        applet,
-        object,
-        iframe,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p,
-        blockquote,
-        pre,
-        a,
-        abbr,
-        acronym,
-        address,
-        big,
-        cite,
-        code,
-        del,
-        dfn,
-        em,
-        img,
-        ins,
-        kbd,
-        q,
-        s,
-        samp,
-        small,
-        strike,
-        strong,
-        sub,
-        sup,
-        tt,
-        var,
-        b,
-        u,
-        i,
-        center,
-        dl,
-        dt,
-        dd,
-        ol,
-        ul,
-        li,
-        fieldset,
-        form,
-        label,
-        legend,
-        table,
-        caption,
-        tbody,
-        tfoot,
-        thead,
-        tr,
-        th,
-        td,
-        article,
-        aside,
-        canvas,
-        details,
-        embed,
-        figure,
-        figcaption,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        output,
-        ruby,
-        section,
-        summary,
-        time,
-        mark,
-        audio,
-        video {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            font-size: 100%;
-            vertical-align: baseline;
-        }
-
-        article,
-        aside,
-        details,
-        figcaption,
-        figure,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        section {
-            display: block;
-        }
-
-        body {
-            line-height: 1;
-        }
-
-        ol,
-        ul {
-            list-style: none;
-        }
-
-        blockquote,
-        q {
-            quotes: none;
-        }
-
-        blockquote:before,
-        blockquote:after,
-        q:before,
-        q:after {
-            content: none;
-        }
-
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
-        }
-
-        body,
-        html {
-            font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-            font-size: 13px;
-            color: #40484f;
-            font-weight: 400;
-            letter-spacing: 0;
-            line-height: 1.46153846;
-            text-align: left;
-            webkit-text-size-adjust: 100%;
-        }
-
-        p {
-            display: block;
-            margin-bottom: 1.3em;
-        }
-
-        a {
-            color: #0095ff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #0c65a5;
-            text-decoration: underline;
-        }
-
-        ul {
-            margin-top: 1rem;
-        }
-
-        li {
-            list-style-type: none;
-            list-style-position: outside;
-            margin-left: 1.3em;
-        }
-
-        h1 {
-            font-size: 2rem;
-        }
-
-        h2 {
-            font-size: 1.67rem;
-        }
-
-        h3 {
-            font-size: 1.27rem;
-        }
-
-        em {
-            color: #757575;
-        }
-
-        blockquote {
-            margin-bottom: 1em;
-        }
-
-        strong {
-            font-weight: 700;
-        }
-
-        #resume {
-            padding: 1rem;
-            margin-top: 2rem;
-        }
-
-        .section {
-            margin-bottom: 1rem;
-        }
-
-        section .location {
-            margin-right: .5em;
-            color: #606d76;
-            font-weight: 700;
-        }
-
-        #contact {
-            margin-top: .5rem;
-        }
-
-        #profiles .item {
-            padding: 0;
-        }
-
-        #header>#profiles,
-        #header>#contact,
-        #skills,
-        #languages,
-        #interests {
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-flex-flow: row wrap;
-            flex-flow: row wrap;
-            -webkit-justify-content: flex-start;
-            justify-content: flex-start;
-        }
-
-        #header>div {
-            line-height: 1.5;
-        }
-
-        #header>div>div {
-            margin-right: 1.2em;
-        }
-
-        #header h1.name {
-            font-size: 2.8rem;
-            font-weight: 100;
-            line-height: 100%;
-        }
-
-        #header h2.label {
-            color: #202931;
-            font-size: 1.47rem;
-            font-weight: 300;
-        }
-
-        #header .picture {
-            width: 11em;
-            float: right;
-            border-radius: 4px;
-        }
-
-        .main-summary {
-            background: #f1f8ff;
-            padding: 1.2em 1em;
-            margin-top: 1rem;
-        }
-
-        .main-summary p {
-            margin: .15em 0 0;
-        }
-
-        h2.section-title {
-            display: inline-block;
-            background: #fff;
-            padding: 0 1em 0.3em 0;
-            color: #ff6d1f;
-            text-transform: uppercase;
-            font-weight: 600;
-            border: none;
-            font-size: .9rem;
-        }
-
-        .section>header {
-            position: relative;
-        }
-
-        .fa {
-            margin-right: 0.25em;
-        }
-
-        .section>header::after {
-            position: absolute;
-            left: 0;
-            top: .7em;
-            height: 1px;
-            background: #ccc;
-            content: "";
-            width: 100%;
-            z-index: -100;
-            display: block;
-        }
-
-        .section.main-summary>section {
-            margin: 0;
-        }
-
-        .section>section>header {
-            font-size: 1.38rem;
-            position: relative;
-            margin-top: .7em;
-        }
-
-        .section>section>header:first-of-type {
-            margin: 0;
-        }
-
-        .section>section>header .space-left {
-            position: absolute;
-            left: -1.56rem;
-            top: 5px;
-            color: #aaa;
-            line-height: 1;
-            opacity: 0;
-        }
-
-        .position,
-        .company,
-        .organization,
-        .institution,
-        .date,
-        .area,
-        .studyType,
-        .title,
-        .awarder {
-            display: inline-block;
-        }
-
-        .position,
-        .studyType,
-        .area,
-        .title,
-        .language,
-        .name {
-            font-weight: 600;
-        }
-
-        .company::before,
-        .institution::before,
-        .organization::before,
-        .awarder::before {
-            content: "at "
-        }
-
-        .company,
-        .institution,
-        .organization,
-        .awarder {
-            color: #606d76;
-            font-weight: 400;
-        }
-
-        .section header .date {
-            font-size: 1rem;
-            display: block;
-            padding: .1em 0;
-            font-weight: 600;
-        }
-
-        ul.keywords,
-        ul.courses {
-            margin-top: .5em;
-        }
-
-        ul.keywords li,
-        ul.courses li {
-            display: inline-block;
-            margin: 2px 2px 2px 0;
-            padding: 4px 5px 5px;
-            font-size: .9rem;
-            line-height: 1;
-            text-transform: lowercase;
-            color: #3e6d8e;
-            background-color: #dfeaf1;
-            border: 0 solid #dfeaf1;
-            white-space: nowrap;
-        }
-
-        ul.keywords li:hover,
-        ul.courses li:hover {
-            background: #dfeaf0;
-        }
-
-        .item {
-            padding: .5em 0;
-        }
-
-        .gpa {
-            padding-bottom: .5em;
-        }
-
-        .fa.social {
-            font-size: 1.1em;
-        }
-
-        .google-plus {
-            color: #dd4b39;
-        }
-
-        .tumblr {
-            color: #32506d;
-        }
-
-        .foursquare {
-            color: #0072b1;
-        }
-
-        .facebook {
-            color: #3b5998;
-        }
-
-        .linkedin {
-            color: #007bb6;
-        }
-
-        .pinterest {
-            color: #cb2027;
-        }
-
-        .dribbble {
-            color: #ea4c89;
-        }
-
-        .instagram {
-            color: #517fa4;
-        }
-
-        .twitter {
-            color: #00aced;
-        }
-
-        .soundcloud {
-            color: #ff3a00;
-        }
-
-        .wordpress {
-            color: #21759b;
-        }
-
-        .youtube {
-            color: #bb0000;
-        }
-
-        .github {
-            color: #171515;
-        }
-
-        .stack-overflow {
-            color: #828386;
-            position: relative;
-        }
-
-        .flickr {
-            color: #ff0084;
-        }
-
-        .stack-overflow::after {
-            position: absolute;
-            left: 0;
-            content: '\f16c';
-            color: #f68a1f;
-            overflow: hidden;
-            height: 40%;
-        }
-
-        #languages .item,
-        #skills .item,
-        #interests .item {
-            width: 15em;
-            padding: 0 .5em .5em 0;
-            border-bottom: none;
-        }
-
-        #skills .item {
-            width: 16em;
-        }
-
-        #skills .item .keywords {
-            width: 15em;
-        }
-
-        .level {
-            margin-bottom: .5em;
-        }
-
-        .level .bar {
-            border: 1px solid #ddd;
-            display: block;
-            width: 10em;
-            height: 5px;
-            position: relative;
-        }
-
-        .level .bar::after {
-            position: absolute;
-            content: " ";
-            top: 0;
-            left: 0;
-            background: black;
-            height: 5px;
-        }
-
-        .level.beginner .bar::after {
-            background: #EB5F51;
-            width: 2.5em;
-        }
-
-        .level.intermediate .bar::after {
-            background: #ffdf1f;
-            width: 5em;
-        }
-
-        .level.advanced .bar::after,
-        .level.fluent .bar::after {
-            background: #5CB85C;
-            width: 7.5em;
-        }
-
-        .level.master .bar::after,
-        .level.native.speaker .bar::after {
-            background: #59C596;
-            width: 10em;
-        }
-
-        #references .item {
-            padding-left: .5em;
-            border-left: 5px solid #ff6d1f;
-        }
-
-        .clear::after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        .display {
-            display: block;
-            opacity: 1!important;
-        }
-
-        .margin1 {
-            margin-bottom: .5rem;
-        }
-
-        @media screen and (min-width: 602px) {
-            #resume {
-                width: 80%;
-                margin: 0 auto;
-            }
-        }
-
-        @media screen and (min-width: 1025px) {
-            li {
-                margin-left: 1.5em;
-            }
-            #resume {
-                width: 820px;
-                margin: 2rem auto;
-                opacity: 0;
-                -webkit-transition: opacity .5s ease-in-out;
-                transition: opacity .5s ease-in-out;
-            }
-            .section>section>header .space-left {
-                opacity: 1;
-                cursor: pointer;
-            }
-            .section>section {
-                margin-left: 1.67rem;
-            }
-            .company::before,
-            .institution::before,
-            .organization::before,
-            .awarder::before {
-                content: "| ";
-            }
-            .header-left {
-                float: left;
-                width: 70%;
-                word-break: normal;
-            }
-            .section header .date {
-                float: right;
-                padding: .2em;
-            }
-            .display {
-                display: none;
-            }
-            .display:not(.none) {
-                display: block;
-            }
-        }
-
-        @media print {
-            #resume {
-                margin: 0;
-                padding: 0;
-                -ms-word-wrap: break-word;
-                word-wrap: break-word;
-                line-height: 1.3;
-            }
-            @page {
-                margin: 1cm 1.4cm;
-            }
-            .item-count {
-                display: none;
-            }
-            .company::before,
-            .institution::before,
-            .organization::before,
-            .awarder::before {
-                content: "at ";
-            }
-            .main-summary {
-                padding: 2rem 0;
-            }
-            .section {
-                margin: .8rem 0;
-                padding: 0;
-            }
-            .section header {
-                padding-bottom: .15rem;
-            }
-            .section .location {
-                padding-bottom: .15rem;
-            }
-            .stack-overflow::after {
-                content: "";
-            }
-            .fa.social {
-                color: #828386;
-            }
-            ul {
-                margin-top: .4em;
-            }
-            ul,
-            li {
-                padding: 0;
-            }
-            ul.keywords li,
-            ul.courses li {
-                margin: 0;
-                padding: 0;
-                font-size: .8rem;
-                text-transform: lowercase;
-            }
-            ul.keywords li::after,
-            ul.courses li::after {
-                padding: 0 0 0 .1rem;
-                content: " |";
-            }
-            ul.keywords::before,
-            ul.courses::before {
-                font-size: .8rem;
-                font-weight: 600;
-            }
-            ul.keywords::before {
-                content: " ";
-            }
-            #skills .keywords::before {
-                content: '';
-            }
-            .section p {
-                margin: 0;
-                padding: 0;
-            }
-            ul.courses::before {
-                content: "Major courses: ";
-            }
-            ul.keywords li:last-of-type::after,
-            ul.courses li:last-of-type::after {
-                content: "";
-            }
-            .level em {
-                font-style: normal;
-                padding: .1em 0;
-            }
-            .level .bar {
-                display: none;
-            }
-            #profiles .item {
-                padding: 0;
-            }
-            .item.display {
-                display: block;
-                opacity: 1!important;
-            }
-        }
-
-        li .fa-folder-open-o {
-            margin-right: 5px;
-        }
-
-        span.description {
-            margin-left: 40px;
-            display: inline-block;
-        }
-    </style>
+    <link rel='stylesheet' id='main-css' href='main.css' type='text/css' media='all' />
 </head>
 
 <body>
     <div id="resume">
         <header id="header" class="clear">
-            <div>
+            <!-- <div class="image">
+                <img src="images/me.jpg" alt="Cansu Bilgir">
+            </div> -->
+            <div class="personal">
+                
+            </div>
+            <div class="margin1">
                 <h1 class="name">Cansu Bilgir</h1>
                 <h2 class="label">Web Developer</h2>
             </div>
             <span class="location">
-                <span class="address">
-                   
-                </span>
-                <span class="postalCode">
-                   
-                </span>
+                <span class="fa fa-map-pin social fa-3x"></span>
                 <span class="city">
-                    Barcelona,
+                    Girona,
                 </span>
                 <span class="countryCode">
                     ES
@@ -735,7 +38,7 @@
                     <a href="mailto:cansu.bilgir@gmail.com">cansu.bilgir@gmail.com</a>
                 </div>
                 <div class="phone">
-                    <span class="fa fa-mobile fa-lg"></span>
+                    <span class="fa fa-phone"></span>
                     (+34) 666 011 324
                 </div>
             </div>
@@ -758,18 +61,19 @@
                 </div>
             </div>
         </header>
-        <section class="section main-summary">
-            <section>
-                <div>
-                    <p>An enthusiastic web developer who likes learning and discovering. I enjoy being a part of
-                        a team and working with like-minded developers and designers. Seeking a new opportunity and challenge in Barcelona.
-                    </p>
-                </div>
+        <section class="section margin1">
+                <header>
+                        <h2 class='section-title margin1'>About Me</h2>
+                    </header>
+                <section>
+                        <p>An enthusiastic web developer who likes learning and discovering. I enjoy being a part of
+                            a team and working with like-minded developers and designers.
+                        </p>
+                </section>
             </section>
-        </section>
         <section class="section margin1">
             <header>
-                <h2 class='section-title'>Skills</h2>
+                <h2 class='section-title margin1'>Key Skills</h2>
             </header>
             <section id="skills">
                 <div class="item">
@@ -778,7 +82,7 @@
                     </h3>
                     <ul class="keywords">
                         <li>
-                            <b>HTML5</b>
+                            <b>HTML5 / CSS3</b>
                         </li>
                         <li>
                             <b>Javascript</b>
@@ -787,20 +91,15 @@
                             <b>PHP</b>
                         </li>
                         <li>
-                            <b>CSS</b>
-                        </li>
-                        <li>
                             <b>MySQL</b>
                         </li>
+                        <li><b>Plates</b></li>
+                        <li><b>webpack</b></li>
+                        <li><b>Babel.js</b></li>
+                        <li><b>ESLint</b></li>
+                        <li><b>Gulp</b></li>
                         <li>
-                            <b>Plates</b>
-                        </li>
-                        <li>Twig</li>
-                        <li>
-                            <b>Gulp</b>
-                        </li>
-                        <li>
-                            <b>Twitter Bootstrap</b>
+                            <b> Bootstrap</b>
                         </li>
                     </ul>
                 </div>
@@ -826,10 +125,8 @@
                         Software
                     </h3>
                     <ul class="keywords">
-                        <li>
-                            <b>PHPStorm</b>
-                        </li>
                         <li><b>Visual Studio Code</b></li>
+                        <li><b>PHPStorm</b></li>
                         <li>Android Studio</li>
                         <li>Sublime Text</li>
                         <li>FileZilla</li>
@@ -846,6 +143,7 @@
                         <li>
                             <b>Vue.Js</b>
                         </li>
+                        <li><b>Vuex</b></li>
                         <li>
                             <b>Wordpress</b>
                         </li>
@@ -860,6 +158,7 @@
                         <li>
                             <b>CodeIgniter</b>
                         </li>
+                        <li><b>Axios</b></li>
                     </ul>
                 </div>
                 <div class="item">
@@ -870,12 +169,7 @@
                         <li>
                             <b>Composer</b>
                         </li>
-                        <li>
-                            <b>Babel.js</b>
-                        </li>
-                        <li>
-                            <b>Webpack</b>
-                        </li>
+
                         <li>
                             <b>JSON</b>
                         </li>
@@ -888,7 +182,7 @@
                         <li>Trello</li>
                         <li>Basecamp</li>
                         <li>
-                            <b>Git</b>
+                            <b>Version Control (Git)</b>
                         </li>
                         <li>SCRUM</li>
                         <li>
@@ -897,8 +191,7 @@
                         <li>Stripe</li>
                         <li>Realex Payments</li>
                         <li>Unix</li>
-                        <li>C#</li>
-                        <li>C++</li>
+
                         <li>npm</li>
                         <li>MarkDown</li>
                         <li>LAMP</li>
@@ -909,43 +202,52 @@
         </section>
         <section class="section">
             <header>
-                <h2 class='section-title'>Work Experience
-                    <span class="item-count">(3)</span>
+                <h2 class='section-title margin1'>CAREER HISTORY
                 </h2>
             </header>
             <section id="work">
-                    <header>
-                            <span class="space-left">
-                                <span class="fa fa-caret-down"></span>
-                            </span>
-                            <div class="position">
-                                Web Developer 
-                            </div>
-                            <div class="company">
-                                Fusio Ltd
-                            </div>
-                            <div class="date">
-                                <span class="startDate">
-                                    April 2018
-                                </span>
-                                <span class="endDate">
-                                    - Present
-                                </span>
-                            </div>
-                        </header>
-                        <span class="website">
-                            <a target="_blank" href="https://www.fusio.net/">https://www.fusio.net/</a>
+                <header>
+                    <span class="space-left">
+                        <span class="fa fa-caret-down"></span>
+                    </span>
+                    <div class="position">
+                        Web Developer (Remote)
+                    </div>
+                    <div class="company">
+                        Fusio Ltd
+                    </div>
+                    <div class="date">
+                        <span class="startDate">
+                            April 2018
                         </span>
-                        <div class="item display" style="opacity:1">
-                            <div class="summary">
-                                <p>
-                                    <p>I have been working remotely for Fusio Ltd. since I moved to Barcelona. I am working on the various projects at the moment.
-                                    </p>
-                                </p>
-                            </div>
-                         
-                        </div>
-                        
+                        <span class="endDate">
+                            - Present
+                        </span>
+                    </div>
+                </header>
+                <span class="website">
+                    <a target="_blank" href="https://www.fusio.net/">https://www.fusio.net/</a>
+                </span>
+                <div class="item display" style="opacity:1">
+                    <div class="summary">
+
+                        <p>I have been working remotely for Fusio Ltd. since April 2018 from Spain. I am working on
+                            the various projects at the moment.
+                        </p>
+
+                    </div>
+                    <ul class="highlights">
+                        <li>
+                            <span class="fa fa-folder-open-o"></span>
+                            <a target='_blank' href="https://wow.met.ie/">WOW-ie - Weather Observations Website of Met
+                                Éireann</a>
+                        </li>
+                        <span class="description">The site has been built with Laravel. Tools I have used: Vue JS +
+                            Vuex, Axios, Testing with Jest, Webpack, ES6 + ESLint + Babel, Highcharts, and
+                            Openlayers.</span>
+                    </ul>
+                </div>
+
                 <header>
                     <span class="space-left">
                         <span class="fa fa-caret-down"></span>
@@ -968,88 +270,98 @@
                 <span class="website">
                     <a target="_blank" href="https://www.fusio.net/">https://www.fusio.net/</a>
                 </span>
-                <div class="item display" style="opacity:1">
+                <div class="item display none" style="opacity:1">
                     <div class="summary">
-                        <p>
-                            <p>FUSIO specializes in Web, Mobile and App development projects. In Fusio, I had an opportunity
-                                to improve my skills on web development and had a chance to create and contribute to many
-                                different projects.
-                            </p>
+
+                        <p>FUSIO specializes in Web, Mobile and App development projects. In Fusio, I had an
+                            opportunity
+                            to improve my skills on web development and had a chance to create and contribute to
+                            many
+                            different projects.
                         </p>
-                        <p>Projects to highlight:</p>
+
                     </div>
                     <ul class="highlights">
-                        <li>
-                            <span class="fa fa-folder-open-o"></span>
-                            <a target='_blank' href="https://refundproject.ie/">The Refund Project</a>
-                        </li>
-                        <span class="description">The site has been built with Laravel. Tools I have used: PHP 7, ParsleyJS, Stripe Payment API, jQuery.</span>
+
                         <li>
                             <span class="fa fa-folder-open-o"></span>
                             <a target='_blank' href="http://fundit.ie/browse">Fund it </a>
                         </li>
-                        <span class="description">The site has been built on Codeigniter 3 and is fully mobile responsive. Its blog section has been
-                            built on Wordpress. Tools I have used: CodeIgniter, PHP 7,VueJS, Webpack, MySql, Realex Payments.</span>
+                        <span class="description">The site has been built on Codeigniter 3 and is fully mobile
+                            responsive. Its blog section has been
+                            built on Wordpress. Tools I have used: CodeIgniter, PHP 7,VueJS, Webpack, MySql, Realex
+                            Payments.</span>
                         <li>
                             <span class="fa fa-folder-open-o"></span>
                             <a target='_blank' href="https://www.stvincents.ie/">St. Vincent's University Hospital</a>
                         </li>
-                        <span class="description">The site has been built on Wordpress and is fully mobile responsive.Tools I have used: PHP 7, jQuery, Gulp, MySQL, Realex Payment Gateway, Bing Custom Search.</span>
+                        <span class="description">The site has been built on Wordpress and is fully mobile
+                            responsive.Tools I have used: PHP 7, jQuery, Gulp, MySQL, Realex Payment Gateway, Bing
+                            Custom Search.</span>
                         <li>
                             <span class="fa fa-folder-open-o"></span>
-                            <a target='_blank' href="http://www.mrfcj.org/incorporating-human-rights-into-climate-action/">Mary Robinson Foundation - Incorporating Human Rights into Climate Action
+                            <a target='_blank'
+                                href="http://www.mrfcj.org/incorporating-human-rights-into-climate-action/">Mary
+                                Robinson Foundation - Incorporating Human Rights into Climate Action
                             </a>
                         </li>
-                        <span class="description">I have used Vue.js to create this single page application with Rest API. It is an data portal to
+                        <span class="description">I have used Vue.js to create this single page application with Rest
+                            API. It is an data portal to
                             read the report extracts. </span>
                         <li>
                             <span class="fa fa-folder-open-o"></span>
                             <a target='_blank' href="http://www.pmvipstyleawards.ie/">VIP Style Awards Voting</a>
                         </li>
-                        <span class="description">I have used Vue.js to create voting page under 5 different category.(Voting page has been removed
+                        <span class="description">I have used Vue.js to create voting page under 5 different
+                            category.(Voting page has been removed
                             since it is finished.)</span>
                         <li>
                             <span class="fa fa-folder-open-o"></span>
                             <a target='_blank' href="https://reviveactive.com/">ReviveActive</a>
                         </li>
-                        <span class="description">I coded this Wordpress / Woocommerce site within a team work, tools I have used: bootstrap, jQuery,
+                        <span class="description">I coded this Wordpress / Woocommerce site within a team work, tools I
+                            have used: bootstrap, jQuery,
                             PHP, Plates (Native PHP templates) </span>
                         <li>
                             <span class="fa fa-folder-open-o"></span>
                             <a target='_blank' href="https://www.finegael.ie/">Fine Gael </a>
                         </li>
-                        <span class="description">I coded this Wordpress site within a team work, tools I have used: bootstrap, jQuery, PHP, ParsleyJS,
+                        <span class="description">I coded this Wordpress site within a team work, tools I have used:
+                            bootstrap, jQuery, PHP, ParsleyJS,
                             Realex Payments</span>
                         <li>
                             <span class="fa fa-folder-open-o"></span>
-                            <a target='_blank' href="https://www.rami.ie/">Website of Royal Academy of Medicine in Ireland </a>
+                            <a target='_blank' href="https://www.rami.ie/">Website of Royal Academy of Medicine in
+                                Ireland </a>
                         </li>
-                        <span class="description">I coded this Wordpress within a team work, tools I have used: bootstrap, jQuery, PHP, Stripe (payments)</span>
+                        <span class="description">I coded this Wordpress within a team work, tools I have used:
+                            bootstrap, jQuery, PHP, Stripe (payments)</span>
                         <li>
                             <span class="fa fa-folder-open-o"></span>
-                            <a target='_blank' href="https://play.google.com/store/apps/details?id&#x3D;net.fusio.irishwriters">A Poet’s Rising </a>
+                            <a target='_blank'
+                                href="https://play.google.com/store/apps/details?id&#x3D;net.fusio.irishwriters">A
+                                Poet’s Rising </a>
                         </li>
                         <span class="description">Native Android app</span>
                         <li>
                             <span class="fa fa-folder-open-o"></span>
-                            <a target='_blank' href="http://www.ahg.gov.ie/">Website of Department of Arts, Heritage and the Gaeltachta </a>
+                            <a target='_blank' href="http://www.ahg.gov.ie/">Website of Department of Arts, Heritage and
+                                the Gaeltachta </a>
                         </li>
-                        <span class="description">I coded this Wordpress bilingual site within a team work, tools I have used: bootstrap, jQuery, Twig
+                        <span class="description">I coded this Wordpress bilingual site within a team work, tools I have
+                            used: bootstrap, jQuery, Twig
                         </span>
                         <li>
                             <span class="fa fa-folder-open-o"></span>
-                            <a target='_blank' href="http://beaut.ie/">Beaut.ie</a>
+                            <a target='_blank' href="http://entertainment.ie/index.htm#/cinema-listings/">Entertainment
+                                Cinema Listing Mobile website </a>
                         </li>
-                        <span class="description">I contributed on this Wordpress (Bootstrap, jQuery) website by creating new sections, widgets and
-                            customizing features with PHP.</span>
+                        <span class="description">I created a responsive AngularJS web app that connects with RESTful
+                            API.</span>
                         <li>
                             <span class="fa fa-folder-open-o"></span>
-                            <a target='_blank' href="http://entertainment.ie/index.htm#/cinema-listings/">Entertainment Cinema Listing Mobile website </a>
-                        </li>
-                        <span class="description">I created a responsive AngularJS web app that connects with RESTful API.</span>
-                        <li>
-                            <span class="fa fa-folder-open-o"></span>
-                            <a target='_blank' href="https://goo.gl/RCZ2ni">Mobile app of Global Sustainability Forum </a>
+                            <a target='_blank' href="https://goo.gl/RCZ2ni">Mobile app of Global Sustainability Forum
+                            </a>
                         </li>
                         <span class="description">Hybrid (Ionic Framework, AngularJS, Cordova) app.</span>
 
@@ -1079,15 +391,15 @@
                 </span>
                 <div class="item display none" style="opacity:0">
                     <div class="summary">
-                        <p>
-                            <p>I had an opportunity to understand how a company works, how to handle various projects, team
+                            <p>I had an opportunity to understand how a company works, how to handle various projects,
+                                team
                                 working and communicating with clients.</p>
-                        </p>
                     </div>
                     <ul class="highlights">
                         <li>
                             <span class="fa fa-folder-open-o"></span>
-                            <a href="https://goo.gl/ASCEmM">Cinema Guide Ireland</a> native Android app (google maps) (Volley, Google maps API, external
+                            <a href="https://goo.gl/ASCEmM">Cinema Guide Ireland</a> native Android app (google maps)
+                            (Volley, Google maps API, external
                             REST API)</li>
                     </ul>
                 </div>
@@ -1115,12 +427,12 @@
                 </span>
                 <div class="item display none" style="opacity:0">
                     <div class="summary">
-                        <p>
-                            <p>Project House, Turkey's leading digital advertising agency in the 360-degree field center.</p>
-                        </p>
+                            <p>Project House, Turkey's leading digital advertising agency in the 360-degree field
+                                center.</p>
                     </div>
                     <ul class="highlights">
-                        <li>I learned how an agency works and it was my first experience in the IT business. During my internship,
+                        <li>I learned how an agency works and it was my first experience in the IT business. During my
+                            internship,
                             I have focused on Social media APIs (Youtube, Twitter, Facebook apps) with javascript.</li>
                     </ul>
                 </div>
@@ -1128,14 +440,13 @@
         </section>
         <section class="section">
             <header>
-                <h2 class='section-title'>Education
-                    <span class="item-count">(3)</span>
+                <h2 class='section-title margin1'>ACADEMIC QUALIFICATIONS
                 </h2>
             </header>
             <section id="education">
                 <header class="clear">
                     <span class="space-left">
-                        <span class="fa fa-caret-down"></span>
+                        <span class="fa fa-caret-right"></span>
                     </span>
                     <div class="header-left">
                         <div class="studyType">
@@ -1163,7 +474,7 @@
                     <li>System Analysis and Design</li>
                     <li>Programming with Java </li>
                 </ul>
-                <div class="item display" style="opacity:1"></div>
+                <div class="item display none" style="opacity:1"></div>
                 <header class="clear">
                     <span class="space-left">
                         <span class="fa fa-caret-right"></span>
@@ -1196,7 +507,7 @@
                     </span>
                     <div class="header-left">
                         <div class="studyType">
-                            Bachelor
+                            BEng
                         </div>
                         <div class="area">
                             Computer Engineering
@@ -1230,7 +541,7 @@
         </section>
         <section class="section margin1">
             <header>
-                <h2 class='section-title'>Languages</h2>
+                <h2 class='section-title margin1'>Languages</h2>
             </header>
             <section id="languages">
                 <div class="display">
@@ -1266,11 +577,22 @@
                         </div>
                     </div>
                 </div>
+                <div class="display">
+                    <h3 class="language">
+                        Catalan
+                    </h3>
+                    <div class="item">
+                        <div class="level fluency beginner">
+                            <em>Beginner</em>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </section>
         <section class="section margin1">
             <header>
-                <h2 class='section-title' class='section-title'>Interests</h2>
+                <h2 class='section-title margin1' class='section-title'>Interests</h2>
             </header>
             <section id="interests">
                 <div class="item">
@@ -1278,15 +600,16 @@
                     </h3>
                     <ul class="keywords">
                         <li>Bouldering</li>
+                        <li>Design</li>
                         <li>Hiking</li>
-                        <li>Computer Science</li>
+                        <li>Technology</li>
                         <li>Travelling</li>
-                        <li>Learning Spanish</li>
+                        <li>Languages</li>
                     </ul>
                 </div>
             </section>
         </section>
-        <section class="section margin1">
+        <!-- <section class="section margin1">
             <header>
                 <h2 class='section-title' class='section-title'>Other</h2>
             </header>
@@ -1312,7 +635,7 @@
                     <p>References available on request</p>
                 </div>
             </section>
-        </section>
+        </section> -->
     </div>
     <script>
         (function () {
@@ -1361,7 +684,35 @@
             elements.style.opacity = '1';
         })();
     </script>
-    <script type="text/javascript">/* <![CDATA[ */(function (d, s, a, i, j, r, l, m, t) { try { l = d.getElementsByTagName('a'); t = d.createElement('textarea'); for (i = 0; l.length - i; i++) { try { a = l[i].href; s = a.indexOf('/cdn-cgi/l/email-protection'); m = a.length; if (a && s > -1 && m > 28) { j = 28 + s; s = ''; if (j < m) { r = '0x' + a.substr(j, 2) | 0; for (j += 2; j < m && a.charAt(j) != 'X'; j += 2)s += '%' + ('0' + ('0x' + a.substr(j, 2) ^ r).toString(16)).slice(-2); j++; s = decodeURIComponent(s) + a.substr(j, m - j) } t.innerHTML = s.replace(/</g, '&lt;').replace(/>/g, '&gt;'); l[i].href = 'mailto:' + t.value } } catch (e) { } } } catch (e) { } })(document);/* ]]> */</script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        (function (d, s, a, i, j, r, l, m, t) {
+            try {
+                l = d.getElementsByTagName('a');
+                t = d.createElement('textarea');
+                for (i = 0; l.length - i; i++) {
+                    try {
+                        a = l[i].href;
+                        s = a.indexOf('/cdn-cgi/l/email-protection');
+                        m = a.length;
+                        if (a && s > -1 && m > 28) {
+                            j = 28 + s;
+                            s = '';
+                            if (j < m) {
+                                r = '0x' + a.substr(j, 2) | 0;
+                                for (j += 2; j < m && a.charAt(j) != 'X'; j += 2) s += '%' + ('0' + ('0x' + a
+                                    .substr(j, 2) ^ r).toString(16)).slice(-2);
+                                j++;
+                                s = decodeURIComponent(s) + a.substr(j, m - j)
+                            }
+                            t.innerHTML = s.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                            l[i].href = 'mailto:' + t.value
+                        }
+                    } catch (e) {}
+                }
+            } catch (e) {}
+        })(document); /* ]]> */
+    </script>
 </body>
 
 </html>
