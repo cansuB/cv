@@ -554,6 +554,10 @@ ul.courses li:hover {
     margin-top: .5rem;
 }
 
+.pt-3 {
+    padding-top: 30px;
+}
+
 @media screen and (min-width: 602px) {
     #resume {
         width: 80%;
@@ -743,15 +747,41 @@ span.description {
     color: #AAAAAA;
 }
 
-.image img{
+/* .image img{
     border-radius: 50%;
     max-width: 150px; 
     max-height: 150px;
 }
-.image{    display: flex;
+.image{   
+    display: flex;
     float: left;
-    margin-right: 2rem;}
+    margin-right: 2rem;
+} */
+
+.image img{
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
+}
+.image{   
+    margin-right: 30px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
 
 .fa-caret-right, .fa-caret-down{
     color: #1f7774;
 }
+
+@media only screen and (max-width: 602px) {
+    /* For mobile phones: */
+    .image{   
+        float: none;
+    }
+  }
