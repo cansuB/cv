@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,400&display=swap');
 html,
 body,
 div,
@@ -128,14 +129,19 @@ table {
 
 body,
 html {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 13px;
-    /* color: #40484f; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #40484f;
     font-weight: 400;
     letter-spacing: 0;
     line-height: 1.46153846;
     text-align: left;
     webkit-text-size-adjust: 100%;
+    background-color: #FEFEFE;
+}
+
+b {
+    font-weight: 500;
 }
 
 p {
@@ -144,13 +150,14 @@ p {
 }
 
 a {
-    color: #1f7774;
+    font-weight: 300;
+    color: #81899C;
     text-decoration: none;
-    font-weight: 500;
+    margin-left: 4px;
 }
 
 a:hover {
-    color: #1f7774;
+    color: #81899C;
     text-decoration: underline;
 }
 
@@ -173,12 +180,13 @@ h2 {
 }
 
 h3 {
-    font-size: 1.27rem;
-    color: #1f7774;
+    font-size: 1.1rem;
+    color: #5B6A9A;
 }
 
 em {
     color: #757575;
+    font-size: .9rem;
 }
 
 blockquote {
@@ -186,7 +194,7 @@ blockquote {
 }
 
 strong {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #resume {
@@ -203,9 +211,8 @@ section .location {
     color: #606d76;
     font-weight: 700;
 }
-
-#contact {
-    margin-top: .5rem;
+section .fa-brands {
+    color: #5B6A9A;
 }
 
 #profiles .item {
@@ -239,13 +246,13 @@ section .location {
 }
 
 #header h1.name {
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: 100;
     line-height: 100%;
 }
 
 #header h2.label {
-    color: #202931;
+    color: #4A90E2;
     font-size: 1.47rem;
     font-weight: 300;
 }
@@ -257,7 +264,7 @@ section .location {
 }
 
 .main-summary {
-    background: #1f7774;
+    background: #4A90E2;
     padding: 1.2em 1em;
     margin-top: 1rem;
     color: white;
@@ -272,11 +279,10 @@ h2.section-title {
     display: inline-block;
     background: #fff;
     padding: 0 1em 0.3em 0;
-    color: #1f7774;
-    text-transform: uppercase;
-    font-weight: 600;
+    color: #4A90E2;
+    font-weight: 400;
     border: none;
-    font-size: .9rem;
+    font-size: 1.1rem;
 }
 
 .section>header {
@@ -304,7 +310,7 @@ h2.section-title {
 }
 
 .section>section>header {
-    font-size: 1.38rem;
+    font-size: 1.1rem;
     position: relative;
     margin-top: .7em;
 }
@@ -340,7 +346,7 @@ h2.section-title {
 .title,
 .language,
 .name {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .company::before,
@@ -354,15 +360,16 @@ h2.section-title {
 .institution,
 .organization,
 .awarder {
-    color: #606d76;
+    color: #81899C;
     font-weight: 400;
 }
 
 .section header .date {
-    font-size: 1rem;
+    font-size: .8rem;
     display: block;
     padding: .1em 0;
-    font-weight: 500;
+    font-weight: 300;
+    color: #81899C;
 }
 
 ul.keywords,
@@ -373,20 +380,20 @@ ul.courses {
 ul.keywords li,
 ul.courses li {
     display: inline-block;
-    margin: 2px 2px 2px 0;
-    padding: 4px 5px 5px;
-    font-size: .9rem;
+    margin: 4px 4px 4px 0;
+    padding: 6px 8px;
+    font-size: .8rem;
     line-height: 1;
     text-transform: lowercase;
-    color: #121212;
-    background-color: #F2F2F2;
-    border: 0 solid #F2F2F2;
+    color: #5B6A9A;
+    background-color: #EEF0F7;
+    border: 0 solid #EEF0F7;
     white-space: nowrap;
 }
 
 ul.keywords li:hover,
 ul.courses li:hover {
-    background: #1f7774;
+    background: #4A90E2;
     color: white;
 }
 
@@ -479,6 +486,9 @@ ul.courses li:hover {
     padding: 0 .5em .5em 0;
     border-bottom: none;
 }
+#interests .item {
+    width: 20em;
+}
 
 #skills .item {
     width: 18em;
@@ -510,30 +520,31 @@ ul.courses li:hover {
 }
 
 .level.beginner .bar::after {
-    background: #1f7774;
-    width: 2.5em;
+    background: #5B6A9A;
+    width: 2em;
 }
 
 .level.intermediate .bar::after {
-    background: #1f7774;
-    width: 5em;
+    background: #5B6A9A;
+    width: 4em;
+}
+
+
+.level.upperintermediate .bar::after {
+    background: #5B6A9A;
+    width:6em;
 }
 
 .level.advanced .bar::after,
 .level.fluent .bar::after {
-    background: #1f7774;
-    width: 7.5em;
+    background: #5B6A9A;
+    width: 8em;
 }
 
 .level.master .bar::after,
 .level.native.speaker .bar::after {
-    background: #1f7774;
+    background: #5B6A9A;
     width: 10em;
-}
-
-#references .item {
-    padding-left: .5em;
-    border-left: 5px solid #ff6d1f;
 }
 
 .clear::after {
@@ -549,6 +560,9 @@ ul.courses li:hover {
 
 .margin1 {
     margin-bottom: .5rem;
+}
+.margin2 {
+    margin-bottom: 2.5rem;
 }
 .mt {
     margin-top: .5rem;
@@ -571,7 +585,7 @@ ul.courses li:hover {
     }
 
     #resume {
-        width: 820px;
+        width: 1100px;
         margin: 2rem auto;
         opacity: 0;
         -webkit-transition: opacity .5s ease-in-out;
@@ -744,7 +758,7 @@ span.description {
 }
 
 .website a{
-    color: #AAAAAA;
+    color: #81899C;
 }
 
 /* .image img{
@@ -776,7 +790,7 @@ span.description {
 }
 
 .fa-caret-right, .fa-caret-down{
-    color: #1f7774;
+    color: #4A90E2;
 }
 
 @media only screen and (max-width: 602px) {
